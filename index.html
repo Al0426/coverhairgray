@@ -1,0 +1,1058 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cover Gray Hair Hair</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #0a0a0a;
+            color: #f0f0f0;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header Styles */
+        .header {
+            background-color: #000;
+            padding: 25px 0;
+            border-bottom: 1px solid #d4af37;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            color: #d4af37;
+            letter-spacing: 1px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 35px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #f0f0f0;
+            font-weight: 500;
+            transition: color 0.3s;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+        }
+
+        .nav-links a:hover {
+            color: #d4af37;
+        }
+
+        /* Hero Image */
+        .hero-image {
+            width: 100%;
+            margin: 30px 0;
+            text-align: center;
+        }
+
+        .hero-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 15px 40px rgba(212, 175, 55, 0.2);
+            border: 1px solid #333;
+        }
+
+        /* Product Title & Description */
+        .product-header {
+            text-align: center;
+            margin: 50px 0;
+            padding: 0 20px;
+        }
+
+        .product-title {
+            font-size: 2.8rem;
+            color: #d4af37;
+            margin-bottom: 30px;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+
+        .product-description {
+            font-size: 1.2rem;
+            color: #ccc;
+            max-width: 900px;
+            margin: 0 auto 25px;
+            line-height: 1.8;
+        }
+
+        .description-list {
+            text-align: left;
+            max-width: 800px;
+            margin: 30px auto;
+            background: rgba(30, 30, 30, 0.8);
+            padding: 35px;
+            border-radius: 15px;
+            border: 1px solid #333;
+        }
+
+        .description-list li {
+            margin: 20px 0;
+            padding-left: 25px;
+            position: relative;
+        }
+
+        .description-list li::before {
+            content: '•';
+            color: #d4af37;
+            font-size: 1.5rem;
+            position: absolute;
+            left: 0;
+            top: -5px;
+        }
+
+        /* Features Section */
+        .features-section {
+            background: linear-gradient(135deg, #1a1a1a 0%, #000000 100%);
+            padding: 70px 0;
+            margin: 50px 0;
+            border-radius: 20px;
+            border: 1px solid #333;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.3rem;
+            color: #d4af37;
+            margin-bottom: 50px;
+            position: relative;
+        }
+
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 80px;
+            height: 3px;
+            background: #d4af37;
+            margin: 15px auto;
+            border-radius: 2px;
+        }
+
+        .features-content {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(30, 30, 30, 0.9);
+            padding: 40px;
+            border-radius: 15px;
+            border: 1px solid #333;
+        }
+
+        .features-content h3 {
+            color: #d4af37;
+            margin-bottom: 25px;
+            font-size: 1.5rem;
+        }
+
+        .tips-list {
+            list-style: none;
+        }
+
+        .tips-list li {
+            padding: 15px 0;
+            border-bottom: 1px solid #333;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .tips-list li:last-child {
+            border-bottom: none;
+        }
+
+        .tips-list li::before {
+            content: '⚠';
+            color: #d4af37;
+            font-weight: bold;
+            margin-right: 15px;
+            font-size: 1.2rem;
+            margin-top: 3px;
+        }
+
+        .warning-text {
+            color: #ff6b6b;
+            font-weight: 500;
+        }
+
+        /* Detail Images */
+        .detail-images {
+            margin: 70px 0;
+        }
+
+        .detail-images-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .detail-image-item {
+            text-align: center;
+        }
+
+        .detail-image-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            border: 1px solid #333;
+            transition: transform 0.3s;
+        }
+
+        .detail-image-item img:hover {
+            transform: scale(1.03);
+        }
+
+        .detail-caption {
+            margin-top: 20px;
+            font-size: 1rem;
+            color: #d4af37;
+            font-weight: 500;
+        }
+
+        /* Color Variants */
+        .color-variants {
+            margin: 70px 0;
+        }
+
+        .color-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .color-item {
+            text-align: center;
+        }
+
+        .color-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+            border: 1px solid #333;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .color-item img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 12px 35px rgba(212, 175, 55, 0.3);
+            border-color: #d4af37;
+        }
+
+        /* Testimonials */
+        .testimonials {
+            background: linear-gradient(135deg, #1a1a1a 0%, #000000 100%);
+            padding: 80px 0;
+            margin: 60px 0;
+            border-radius: 25px;
+            border: 1px solid #333;
+        }
+
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 50px;
+            padding: 0 20px;
+        }
+
+        .testimonial-card {
+            background: rgba(30, 30, 30, 0.9);
+            padding: 40px;
+            border-radius: 15px;
+            position: relative;
+            border: 1px solid #333;
+        }
+
+        .testimonial-card::before {
+            content: '"';
+            font-size: 5rem;
+            color: #d4af37;
+            opacity: 0.1;
+            position: absolute;
+            top: 20px;
+            left: 25px;
+            font-family: Georgia, serif;
+        }
+
+        .testimonial-text {
+            color: #e0e0e0;
+            font-style: italic;
+            margin-bottom: 25px;
+            line-height: 1.8;
+            position: relative;
+            z-index: 1;
+            font-size: 1.1rem;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+        }
+
+        .author-avatar {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: linear-gradient(45deg, #d4af37, #b8860b);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #000;
+            font-weight: bold;
+            margin-right: 20px;
+            font-size: 1.2rem;
+            border: 2px solid #d4af37;
+        }
+
+        .author-info h4 {
+            color: #d4af37;
+            margin-bottom: 5px;
+            font-size: 1.1rem;
+        }
+
+        .author-info p {
+            color: #aaa;
+            font-size: 0.95rem;
+        }
+
+        .rating {
+            color: #d4af37;
+            margin: 15px 0;
+            font-size: 1.1rem;
+        }
+
+        /* Countdown Timer */
+        .countdown-section {
+            background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+            color: #f0f0f0;
+            padding: 70px 0;
+            margin: 60px 0;
+            border-radius: 25px;
+            text-align: center;
+            border: 2px solid #d4af37;
+        }
+
+        .countdown-title {
+            font-size: 2.3rem;
+            color: #d4af37;
+            margin-bottom: 40px;
+        }
+
+        .countdown-timer {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        .countdown-item {
+            background: rgba(30, 30, 30, 0.9);
+            padding: 25px;
+            border-radius: 15px;
+            min-width: 120px;
+            border: 1px solid #d4af37;
+        }
+
+        .countdown-number {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 8px;
+            color: #d4af37;
+        }
+
+        .countdown-label {
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 500;
+            color: #e0e0e0;
+        }
+
+        /* Notes */
+        .notes-section {
+            background: rgba(30, 30, 30, 0.8);
+            padding: 60px 0;
+            margin: 60px 0;
+            border-radius: 20px;
+            border: 1px solid #333;
+        }
+
+        .notes-content {
+            max-width: 700px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .notes-list {
+            list-style: none;
+            text-align: left;
+            max-width: 500px;
+            margin: 30px auto;
+        }
+
+        .notes-list li {
+            padding: 18px 0;
+            border-bottom: 1px solid #333;
+            display: flex;
+            align-items: center;
+        }
+
+        .notes-list li:last-child {
+            border-bottom: none;
+        }
+
+        .notes-list li::before {
+            content: '✓';
+            color: #d4af37;
+            font-weight: bold;
+            margin-right: 18px;
+            font-size: 1.2rem;
+        }
+
+        /* Pricing */
+        .pricing-section {
+            background: linear-gradient(135deg, #1a1a1a 0%, #000000 100%);
+            padding: 70px 0;
+            margin: 60px 0;
+            border-radius: 25px;
+            text-align: center;
+            border: 1px solid #333;
+        }
+
+        .promo-badge {
+            background: linear-gradient(45deg, #ff6b6b, #d4af37);
+            color: #000;
+            padding: 15px 30px;
+            border-radius: 30px;
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 30px;
+            animation: pulse 2s infinite;
+            font-size: 1.2rem;
+            letter-spacing: 1px;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(212, 175, 55, 0.7); }
+            70% { transform: scale(1.05); box-shadow: 0 0 0 10px rgba(212, 175, 55, 0); }
+            100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(212, 175, 55, 0); }
+        }
+
+        .price-container {
+            background: rgba(30, 30, 30, 0.9);
+            padding: 40px;
+            border-radius: 20px;
+            border: 1px solid #d4af37;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .price-original {
+            text-decoration: line-through;
+            color: #999;
+            font-size: 2rem;
+            margin: 20px 0;
+            font-weight: 500;
+        }
+
+        .price-promo {
+            font-size: 3.2rem;
+            color: #d4af37;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+
+        .price-savings {
+            background: rgba(212, 175, 55, 0.2);
+            color: #d4af37;
+            padding: 18px 35px;
+            border-radius: 30px;
+            display: inline-block;
+            margin: 35px 0;
+            font-weight: bold;
+            font-size: 1.3rem;
+            border: 1px solid #d4af37;
+        }
+
+        /* Promo Image */
+        .promo-image {
+            position: relative;
+            margin: 60px 0;
+            text-align: center;
+        }
+
+        .promo-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+            border: 1px solid #333;
+        }
+
+        .discount-badge {
+            position: absolute;
+            top: 25px;
+            right: 25px;
+            background: linear-gradient(45deg, #ff6b6b, #d4af37);
+            color: #000;
+            padding: 22px 30px;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 1.4rem;
+            box-shadow: 0 10px 30px rgba(212, 175, 55, 0.5);
+            animation: bounce 2s infinite;
+            text-align: center;
+            border: 2px solid #000;
+        }
+
+        .discount-badge span {
+            display: block;
+            font-size: 1rem;
+            margin-top: 5px;
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+            40% { transform: translateY(-12px); }
+            60% { transform: translateY(-6px); }
+        }
+
+        /* Order Form */
+        .order-form-section {
+            background: linear-gradient(135deg, #1a1a1a 0%, #000000 100%);
+            padding: 80px 0;
+            margin: 60px 0;
+            border-radius: 25px;
+            border: 1px solid #333;
+        }
+
+        .form-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .form-title {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #d4af37;
+            margin-bottom: 40px;
+        }
+
+        .ooef {
+            border: none !important;
+        }
+
+        .orderonline-embed-form {
+            border: 2px solid #d4af37 !important;
+            border-radius: 15px !important;
+            overflow: hidden !important;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.3) !important;
+            background: rgba(30, 30, 30, 0.9) !important;
+        }
+
+        /* Footer */
+        .footer {
+            background: #000;
+            color: #d4af37;
+            text-align: center;
+            padding: 50px 0;
+            margin-top: 80px;
+            border-top: 1px solid #333;
+        }
+
+        .footer p {
+            margin: 10px 0;
+            font-size: 1rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .product-title {
+                font-size: 2rem;
+            }
+
+            .product-description {
+                font-size: 1rem;
+            }
+
+            .nav-links {
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 20px;
+            }
+
+            .countdown-item {
+                min-width: 90px;
+                padding: 20px;
+            }
+
+            .countdown-number {
+                font-size: 2.2rem;
+            }
+
+            .price-promo {
+                font-size: 2.5rem;
+            }
+
+            .discount-badge {
+                padding: 15px 20px;
+                font-size: 1.1rem;
+                top: 20px;
+                right: 20px;
+            }
+
+            .testimonials-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .color-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 0 15px;
+            }
+
+            .product-title {
+                font-size: 1.7rem;
+            }
+
+            .section-title {
+                font-size: 1.8rem;
+            }
+
+            .countdown-item {
+                min-width: 75px;
+                padding: 15px;
+            }
+
+            .countdown-number {
+                font-size: 1.8rem;
+            }
+
+            .countdown-label {
+                font-size: 0.9rem;
+            }
+
+            .price-promo {
+                font-size: 2rem;
+            }
+
+            .discount-badge {
+                padding: 12px 18px;
+                font-size: 0.9rem;
+            }
+
+            .promo-badge {
+                font-size: 1rem;
+                padding: 12px 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">COVER GRAY HAIR</div>
+                <nav class="nav-links">
+                    <a href="#home">Beranda</a>
+                    <a href="#features">Fitur</a>
+                    <a href="#details">Detail</a>
+                    <a href="#colors">Warna</a>
+                    <a href="#testimonials">Testimoni</a>
+                    <a href="#order">Pesan Sekarang</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Image -->
+    <section class="hero-image">
+        <div class="container">
+            <img src="https://down-id.img.susercontent.com/file/sg-11134201-7raux-ma9pv25idjgebb.webp" alt="Cover Gray Hair Hair">
+        </div>
+    </section>
+
+    <!-- Product Title & Description -->
+    <section class="product-header">
+        <div class="container">
+            <h1 class="product-title">Cover Gray Hair Hair</h1>
+            <p class="product-description">1 Tongkat pewarna rambut terbuat dari bahan-bahan yang berasal dari tumbuhan, sederhana dan nyaman, dirancang untuk menutupi uban dengan desain krim yang lebih luas, tahan air dan tahan keringat, tidak ada pewarnaan pada kulit kepala, cocok untuk digunakan di rumah, menghemat waktu dan tenaga</p>
+            
+            <ul class="description-list">
+                <li>Dengan minyak wijen sebagai bahan utama, produk ini merupakan formula hipoalergenik yang aman dan terjamin yang secara efektif menutupi area kecil uban atau uban yang baru tumbuh dan mengembalikan efek rambut hitam alami</li>
+                <li>Tongkat pewarna rambut mudah dioperasikan cukup gunakan sisir untuk menyisir pasta secara merata ke rambut dengan cepat dan nyaman, tidak perlu mewarnai rambut sepenuhnya, cocok untuk remaja dan pertumbuhan uban baru</li>
+                <li>Cocok untuk perawatan sehari-hari seperti perjalanan kerja yang sibuk dengan cepat menutupi uban tidak perlu memesan layanan pewarnaan rambut profesional, menghemat waktu dan energi</li>
+                <li>Sangat cocok untuk orang yang perlu menutupi uban dengan cepat dan tidak ingin melakukan pewarnaan rambut tradisional dan sangat cocok untuk konsumen yang mencari efek kecantikan rambut alami</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section" id="features">
+        <div class="container">
+            <h2 class="section-title">Tips Penggunaan</h2>
+            <div class="features-content">
+                <h3>Perhatian Penting</h3>
+                <ul class="tips-list">
+                    <li><span class="warning-text">Produk ini adalah pengisi warna darurat sekali pakai, tidak cocok untuk pelapisan seluruh kepala dan bagian yang sama, tidak cocok untuk diaplikasikan pada seluruh kepala dan bagian kepala yang sama akan menghasilkan remah-remah setelah dikeringkan jika diaplikasikan berkali-kali. Gunakan produk dengan cara yang terkendali.</span></li>
+                    <li><span class="warning-text">Tidak boleh menyentuh atau memakai topi setelah digunakan.</span></li>
+                    <li><span class="warning-text">Cuci rambut Anda sebelum tidur pada hari penggunaan untuk menghindari noda pada sarung bantal dan pakaian.</span></li>
+                    <li>※ Tidak boleh digunakan pada area selain rambut, seperti bulu mata dan alis.</li>
+                    <li>※ Dilarang digunakan pada area luka, eksim, dan area yang tidak normal lainnya.</li>
+                    <li>※ Hindari kontak dengan mata, jika tidak sengaja mengenai mata, silakan basuh dengan banyak air.</li>
+                    <li>※ Jika Anda merasa tidak nyaman saat menggunakan, harap hentikan penggunaan dan jauhkan dari jangkauan bayi dan anak-anak.</li>
+                    <li>※ Tempatkan jauh dari jangkauan bayi dan anak-anak.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detail Images -->
+    <section class="detail-images" id="details">
+        <div class="container">
+            <h2 class="section-title">Detail Produk</h2>
+            <div class="detail-images-grid">
+                <div class="detail-image-item">
+                    <img src="https://down-id.img.susercontent.com/file/sg-11134201-7rasm-ma9pv2phiwfy9b.webp" alt="Detail Produk 1">
+                    <p class="detail-caption">Kemasan Produk Premium</p>
+                </div>
+                <div class="detail-image-item">
+                    <img src="https://down-id.img.susercontent.com/file/sg-11134201-7raso-ma9pv2y36a2t4e.webp" alt="Detail Produk 2">
+                    <p class="detail-caption">Desain Sisir Ergonomis</p>
+                </div>
+                <div class="detail-image-item">
+                    <img src="https://down-id.img.susercontent.com/file/sg-11134201-7raue-ma9pv3egid9u44.webp" alt="Detail Produk 3">
+                    <p class="detail-caption">Tekstur Krim Berkualitas</p>
+                </div>
+                <div class="detail-image-item">
+                    <img src="https://down-id.img.susercontent.com/file/sg-11134201-7raub-ma9pv3ms65510b.webp" alt="Detail Produk 4">
+                    <p class="detail-caption">Penggunaan yang Mudah</p>
+                </div>
+                <div class="detail-image-item">
+                    <img src="https://down-id.img.susercontent.com/file/sg-11134201-7rasz-ma9pv3t5wu4q8d.webp" alt="Detail Produk 5">
+                    <p class="detail-caption">Hasil Akhir Natural</p>
+                </div>
+                <div class="detail-image-item">
+                    <img src="https://down-id.img.susercontent.com/file/sg-11134201-7rasr-ma9pv3ypoq4467.webp" alt="Detail Produk 6">
+                    <p class="detail-caption">Tahan Air dan Keringat</p>
+                </div>
+                <div class="detail-image-item">
+                    <img src="https://down-id.img.susercontent.com/file/sg-11134201-7ravl-ma9pv453gqjr87.webp" alt="Detail Produk 7">
+                    <p class="detail-caption">Formula dari Minyak Wijen</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Color Variants -->
+    <section class="color-variants" id="colors">
+        <div class="container">
+            <h2 class="section-title">Pilihan Warna</h2>
+            <div class="color-grid">
+                <div class="color-item">
+                    <img src="https://down-id.img.susercontent.com/file/sg-11134201-7rau8-ma9pv4cb68fo25@resize_w450_nl.webp" alt="Warna Hitam">
+                </div>
+                <div class="color-item">
+                    <img src="https://down-id.img.susercontent.com/file/sg-11134201-7rat0-ma9pv4k2w9pwe0@resize_w450_nl.webp" alt="Warna Coklat">
+                </div>
+                <div class="color-item">
+                    <img src="https://down-id.img.susercontent.com/file/sg-11134201-7ratr-ma9pv4s4hn3552@resize_w450_nl.webp" alt="Warna Abu-abu">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <h2 class="section-title">Testimoni Pelanggan</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">Produk ini benar-benar luar biasa! Sangat mudah digunakan dan hasilnya sangat natural. Saya bisa menutupi uban dengan cepat tanpa harus pergi ke salon. Sangat cocok untuk ibu rumah tangga sibuk seperti saya.</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">SR</div>
+                        <div class="author-info">
+                            <h4>Sari Rahayu</h4>
+                            <p>Jakarta</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="testimonial-text">Sangat praktis dan hemat waktu! Tidak perlu khawatir lagi tentang uban yang terlihat saat bekerja. Formula aman dan tidak membuat kulit kepala iritasi. Harga terjangkau untuk kualitas sebaik ini.</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">BP</div>
+                        <div class="author-info">
+                            <h4>Budi Prasetyo</h4>
+                            <p>Bandung</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">Saya sudah mencoba banyak produk pewarna rambut, tapi yang ini yang paling saya sukai. Tahan lama, tidak mudah luntur, dan hasilnya sangat natural. Sangat direkomendasikan untuk yang ingin tampil percaya diri!</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">DL</div>
+                        <div class="author-info">
+                            <h4>Dewi Lestari</h4>
+                            <p>Surabaya</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Countdown Timer -->
+    <section class="countdown-section">
+        <div class="container">
+            <h2 class="countdown-title">Promo Eksklusif Berakhir Dalam</h2>
+            <div class="countdown-timer">
+                <div class="countdown-item">
+                    <div class="countdown-number" id="days">02</div>
+                    <div class="countdown-label">Hari</div>
+                </div>
+                <div class="countdown-item">
+                    <div class="countdown-number" id="hours">12</div>
+                    <div class="countdown-label">Jam</div>
+                </div>
+                <div class="countdown-item">
+                    <div class="countdown-number" id="minutes">45</div>
+                    <div class="countdown-label">Menit</div>
+                </div>
+                <div class="countdown-item">
+                    <div class="countdown-number" id="seconds">30</div>
+                    <div class="countdown-label">Detik</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Notes -->
+    <section class="notes-section">
+        <div class="container">
+            <div class="notes-content">
+                <h2 class="section-title">Catatan Pemesanan</h2>
+                <ul class="notes-list">
+                    <li>Pengiriman 2 - 4 Hari Setelah Pemesanan</li>
+                    <li>Mohon Isi Alamat Dengan Lengkap</li>
+                    <li>100% Product Original</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="pricing-section">
+        <div class="container">
+            <div class="promo-badge">PROMO SPESIAL HARI INI</div>
+            <div class="price-container">
+                <p>Dapatkan Diskon Spesial Untuk Hari Ini Saja, Harga Akan Kembali Normal Setelah:</p>
+                <div class="price-promo">Rp. 175.000</div>
+                <div class="price-original">Rp. 255.000</div>
+                <div class="price-savings">Anda Hemat Rp. 80.000 (31% OFF)</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Promo Image -->
+    <section class="promo-image">
+        <div class="container">
+            <img src="https://down-id.img.susercontent.com/file/sg-11134201-7raul-ma9pv2glypby05.webp" alt="Promo Image">
+            <div class="discount-badge">DISKON<br><span>31%</span></div>
+        </div>
+    </section>
+
+    <!-- Order Form -->
+    <section class="order-form-section" id="order">
+        <div class="container">
+            <h2 class="form-title">Form Pemesanan</h2>
+            <div class="form-container">
+                <div class="ooef">
+                    <form class="orderonline-embed-form" data-username="emma" data-product-slug="23d54rsde" data-product-id="68a5d36e03260e17e507b009" id="oo-embed-form-23d54rsde-1443" data-origin="orderonline">
+                        <div class="ooef-loader">
+                            <style>
+                                .ooef-loader{visibility: hidden;opacity: 0;position: absolute;left: 0;right: 0;top: 0;bottom: 0;display: flex;justify-content: center;align-items: center;flex-direction: column;animation: ooLoadingIn 10s ease;-webkit-animation: ooLoadingIn 10s ease;animation-fill-mode: forwards;overflow: hidden}
+                                @keyframes ooLoadingIn{0%{visibility: hidden;opacity: 0}20%{visibility: visible;opacity: 0}100%{visibility: visible;opacity: 1}}
+                                @-webkit-keyframes ooLoadingIn{0%{visibility: hidden;opacity: 0}20%{visibility: visible;opacity: 0}100%{visibility: visible;opacity: 1}}
+                                .ooef-loader>div,.ooef-loader>div:after{border-radius: 50%;width: 2.5rem;height: 2.5rem}
+                                .ooef-loader>div{font-size: 10px;position: relative;text-indent: -9999em;border: .25rem solid #f5f5f5;border-left: .25rem solid #d4af37;-webkit-transform: translateZ(0);-ms-transform: translateZ(0);transform: translateZ(0);-webkit-animation: ooLoading 1.1s infinite linear;animation: ooLoading 1.1s infinite linear}
+                                .ooef-loader.error>div{border-left: .25rem solid #ff4500;animation-duration: 5s}
+                                @-webkit-keyframes ooLoading{0%{-webkit-transform: rotate(0);transform: rotate(0)}100%{-webkit-transform: rotate(360deg);transform: rotate(360deg)}}
+                                @keyframes ooLoading{0%{-webkit-transform: rotate(0);transform: rotate(0)}100%{-webkit-transform: rotate(360deg);transform: rotate(360deg)}}
+                            </style>
+                            <div aria-live="polite" role="status">
+                                <div>Loading...</div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 COVER GRAY HAIR. All rights reserved.</p>
+            <p>Produk Original Berkualitas Tinggi</p>
+            <p>Solusi Praktis untuk Menutupi Uban</p>
+        </div>
+    </footer>
+
+    <script>
+        // Countdown Timer Logic
+        function updateCountdown() {
+            const daysElement = document.getElementById('days');
+            const hoursElement = document.getElementById('hours');
+            const minutesElement = document.getElementById('minutes');
+            const secondsElement = document.getElementById('seconds');
+            
+            // Set target date (2 days from now)
+            const targetDate = new Date();
+            targetDate.setDate(targetDate.getDate() + 2);
+            
+            const now = new Date();
+            const difference = targetDate - now;
+            
+            const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((difference % (1000 * 60)) / 1000);
+            
+            daysElement.textContent = days.toString().padStart(2, '0');
+            hoursElement.textContent = hours.toString().padStart(2, '0');
+            minutesElement.textContent = minutes.toString().padStart(2, '0');
+            secondsElement.textContent = seconds.toString().padStart(2, '0');
+        }
+        
+        // Update countdown every second
+        setInterval(updateCountdown, 1000);
+        updateCountdown();
+        
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+
+    <script>
+        if (typeof xLogError != 'function') {
+            var xLogError = function (error) {
+                var req = new XMLHttpRequest();
+                var payload = JSON.stringify({ url: document.location.href, line: error.line, stack: error.stack });
+                var params = 'message=' + encodeURIComponent(error.name) + '&payload=' + encodeURIComponent(payload) + '&type=embed&level=error';
+                req.open('POST', 'https://api.orderonline.id/log', true);
+                req.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+                req.send(params);
+            };
+        }
+        try {
+            if (typeof xEmbedScript != 'function') {
+                var xEmbedScript = function () {
+                    !function(w, d, e, v, id, t, s) {
+                        if (d.getElementById(id)) return;
+                        t = d.createElement(e);t.async = !0;t.src = v;t.id = id;
+                        s = d.getElementsByTagName(e)[0];
+                        s.parentNode.insertBefore(t, s);
+                    }(window, document, 'script', 'https://cdn.orderonline.id/js/embed-v2-slim.min.js?v=8.0.4', 'oo-embed-js');
+                };
+            }
+            if (typeof xEmbedInit != 'function') {
+                var xEmbedInit = function (w, n) {
+                    if (w.ooe) return;
+                    n = w.ooe = function() { n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments) };
+                    if (!w._ooe) w._ooe = n;
+                    n.push = n;n.loaded = !0;n.version = '8.0.4';
+                    n.queue = [];
+                };
+            }
+            xEmbedInit(window);
+            ooe('setup', 'redirect', 'https://emma.orderonline.id');
+            ooe('init', '5f16831a9d8e8e4fb67472e5', '68a5d36e03260e17e507b009', null, 'oo-embed-form-23d54rsde-1443', {"mode":"page","action":"Klik untuk pemesanan","title":"Form Pemesanan","triggerPixel":true,"triggerGtm":false});
+            if (!window.jQuery) {
+                !function(w, d, e, v, id, t, s) {
+                    if (d.getElementById(id)) return;
+                    t = d.createElement(e);t.async = !0;t.src = v;t.id = id;
+                    t.addEventListener('load', xEmbedScript);
+                    s = d.getElementsByTagName(e)[0];
+                    s.parentNode.insertBefore(t, s);
+                }(window, document, 'script', 'https://cdn.orderonline.id/js/vendor/jquery.min.js', 'oo-embed-jquery');
+            } else {
+                xEmbedScript();
+            }
+        } catch (e) {
+            xLogError(e);
+            throw e;
+        }
+    </script>
+</body>
+</html>
